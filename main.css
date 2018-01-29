@@ -1,0 +1,35 @@
+body {
+  background-image: url(Pictures/winebottles.jpg);
+  background-size: cover;
+  width: 100vh;
+  margin: 0; }
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5 {
+    background-color: #fa3232;
+    font-family: 'Roboto Slab', serif; }
+  body .interactive {
+    background-color: aliceblue;
+    width: 125px; }
+  body p {
+    font-family: 'Risque', cursive; }
+  body .text {
+    text-align: center;
+    max-width: 80vh;
+    background-color: bisque;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); }
+  body #Poe {
+    position: relative;
+    top: 100%;
+    transform: translateY(100%);
+    transition: all .5s; }
+  body #Poe:hover, body #Poe:focus {
+    transform: scale(1.2); }
+  body .name {
+    background-color: red; }
+
+/*# sourceMappingURL=main.css.map */
