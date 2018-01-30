@@ -13,9 +13,9 @@ body {
         background-color: $brandcolor;
         font-family: 'Roboto Slab', serif;
     }
-    .interactive {
+    .story {
         background-color: aliceblue;
-        width: 125px;
+        width: 225px;
     }
     p{
          font-family: 'Risque', cursive;
@@ -27,6 +27,12 @@ body {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
+    }
+    .border{
+        border-color: red;
+        border-width: 10px;
+        border-style: solid;
+        border-radius: 50%;
     }
     #Poe {
         position: relative;
